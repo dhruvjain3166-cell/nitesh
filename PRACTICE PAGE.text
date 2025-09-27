@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My page 1</Title>
+</head>
+<body>
+<h1>PRACICE PAGE</h1>
+<p>TRY TRY BUT DONT'T CRY</p>
+<a href="https://admin.paruluniversity844.examly.io/">click here for link 1</a>
+<BR>
+<a href="https://elearning.paruluniversity.ac.in/auth/login">click here for link 2</a>
+<BR>
+<img src="C:\Users\pietds\Desktop\NITESH PAWAR AIDS-3 25UG034696\virat kohli 1.jpg" width="600" height="400">
+<BR>
+<video width="1080" height="720" controls>
+<source src="C:\Users\pietds\Desktop\NITESH PAWAR AIDS-3 25UG034696\262905.mp4" type="video/mp4">
+</video>
+<video width="1080" height="720" controls>
+<source src="C:\Users\pietds\Desktop\NITESH PAWAR AIDS-3 25UG034696\2619-865412755.mp4" type="video/mp4">
+</video>
+
+<p title="I'm a too;tip">mouse over this paragraph,to display the title attribute as a tooltip.</p>
+
+</body>
+</html

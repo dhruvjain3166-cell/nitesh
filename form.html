@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic HTML Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #b8b8b8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .form-container {
+      background: rgb(255, 255, 255);
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgb(255, 255, 255);
+      width: 400px;
+    }
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="checkbox"], input[type="radio"] {
+      width: auto;
+      margin-right: 5px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #007BFF;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Registration Form</h2>
+    <form action="pdf1.pdf" method="get">
+      <label>Full Name:</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Password:</label>
+      <input type="password" placeholder="Enter password" required>
+
+      <label>Phone Number:</label>
+      <input type="tel" placeholder="123-456-7890">
+
+      <label>Age:</label>
+      <input type="number" min="1" max="100">
+
+      <label>Birthday:</label>
+      <input type="date">
+
+      <label>Upload File:</label>
+      <input type="file">
+
+      <label>Choose Gender:</label>
+      <input type="radio" name="gender"> Male
+      <input type="radio" name="gender"> Female
+      <input type="radio" name="gender"> Other
+
+      <label>Hobbies:</label>
+      <input type="checkbox"> Reading
+      <input type="checkbox"> Traveling
+      <input type="checkbox"> Gaming
+
+      <label>Country:</label>
+      <select>
+        <option>--Select--</option>
+        <option>India</option>
+        <option>USA</option>
+        <option>UK</option>
+        <option>Australia</option>
+      </select>
+
+      <label>About Yourself:</label>
+      <textarea rows="4" placeholder="Write something..."></textarea>
+
+      <label>Favorite Color:</label>
+      <input type="color">
+
+      <label>Range (0-100):</label>
+      <input type="range" min="0" max="100">
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

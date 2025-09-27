@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p><b>''This text is bold''</b></p>
+<p><cite>This text is italic cite</cite></p>
+<p> This is<sub> subscript</sub> and <sup>superscript</sub></p>
+<p><em>This text is emphasized.</em></p>
+
+
+
+
+<p><bdo dir="rtl">Do not forget to buy<mark>milk</mark> today.</bdo></p>
+
+
+<hr>
+<hr>
+
+
+
+<p><mark><i>I wandered lonely as a cloud That floats on high o'er vales and hills, When all at once I saw a crowd, A host, of golden daffodils; Beside the lake, beneath the trees, Fluttering and dancing in the breeze</mark></i></p>
+
+<address><mark>
+Written by John Doe.<br>
+visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</mark></address>
+<hr>
+<br>
+           <!--This is a comment --><p>This is a paragraph.</p>
+           <p>This <!--Great text (inline comment) -->is a paragraph.</p>
+
+</body>
+</html>
